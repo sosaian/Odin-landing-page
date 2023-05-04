@@ -25,6 +25,14 @@ body
 .header, .hero, .footer
 {
     background-color: #1F2937;
+    padding: 16px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo
@@ -33,10 +41,24 @@ body
     color: #F9FAF8;
 }
 
-.links, .hero-secondary-text, .imgPlaceholder, footer
+a, .hero-secondary-text, .imgPlaceholder, footer
 {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 .hero-main-text
